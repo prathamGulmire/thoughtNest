@@ -14,10 +14,14 @@ import java.util.Date;
 @Data   //It includes multiple annotations like getter, setter, etc.
 @NoArgsConstructor
 public class JournalEntry {
+
     @Id
     private ObjectId id;
+
     @NonNull
     private String title;
+
     private String content;
+
     private LocalDateTime date;
 }

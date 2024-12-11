@@ -29,7 +29,6 @@ public class UserServiceTests {
             "sham",
             "pratham"
     })
-
     public void testFindByUserName(String name) {
         assertNotNull(userRepository.findByUserName(name));
     }
